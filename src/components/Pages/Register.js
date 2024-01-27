@@ -23,17 +23,16 @@ function Register() {
     .catch(err => console.log(err))
   }
 
-  const [message, setMessage] = useState("");
-  useEffect(() => {
-    document.title = "bS | Register 🔑";
-    fetch('https://blackzspace.de:8081/register')
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-      console.log(
-        "Console > Register!"
-      );
-      
-  }, []);
+ // const [message, setMessage] = useState("");
+ // useEffect(() => {
+ //  document.title = "bS | Register 🔑";
+ //  fetch('https://blackzspace.de:8081/register')
+ //  .then((res) => res.json())
+ //  .then((data) => setMessage(data.message));
+ //  console.log(
+ //  "Console > Register!"
+ //   );
+ //  }, []);
 
 
   
@@ -73,7 +72,6 @@ function Register() {
    
       </form>
         </div>
-        <center><p>{message}</p></center>
         </div>
   );
 }

@@ -21,13 +21,13 @@ function Login() {
     .catch(err => console.log(err))
   }
 
-  const [message, setMessage] = useState("");
-  useEffect(() => {
-    document.title = "bS | Login 🔑";
-    fetch('https://blackzspace.de:8081/login')
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
+//  const [message, setMessage] = useState("");
+//  useEffect(() => {
+//    document.title = "bS | Login 🔑";
+//    fetch('https://blackzspace.de:8081/login')
+//      .then((res) => res.json())
+//     .then((data) => setMessage(data.message));
+//  }, []);
 
 
   
