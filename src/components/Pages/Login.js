@@ -16,7 +16,7 @@ function Login() {
   
   function handleSubmit(event) {
     event.preventDefault();
-    axios.post('http://localhost:8081/login', {user, password})
+    axios.post('https://blackzspace.de:8081/login', {user, password})
     .then(res => console.log(res))
     .catch(err => console.log(err))
   }
@@ -24,7 +24,7 @@ function Login() {
   const [message, setMessage] = useState("");
   useEffect(() => {
     document.title = "bS | Login 🔑";
-    fetch('http://localhost:8081/login')
+    fetch('https://blackzspace.de:8081/login')
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
