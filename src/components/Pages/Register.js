@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 import axios from 'axios';
 import "../Styles/Login.css";
 
@@ -15,7 +18,7 @@ function Register() {
   
   function handleSubmit(event) {
     event.preventDefault();
-    axios.post('https://blackzspace.de:8081/register', {username, password, email})
+    axios.post('http://localhost:8081/register', {username, password, email})
     .then(res => console.log(res))
     .catch(err => console.log(err))
   }
@@ -23,7 +26,7 @@ function Register() {
   const [message, setMessage] = useState("");
   useEffect(() => {
     document.title = "bS | Register 🔑";
-    fetch('https://blackzspace.de:8081/register')
+    fetch('http://localhost:8081/register')
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
       console.log(
@@ -37,6 +40,18 @@ function Register() {
   return (
     
     <div className="Register-header">
+        <Container maxWidth="sm">
+            <Box sx={{ my: 4 }}>
+              <Typography
+                align="center"
+                variant="h4"
+                component="h1"
+                gutterBottom
+              >
+                Register
+              </Typography>
+            </Box>
+          </Container>
       <div className="register">
         <form onSubmit={handleSubmit}>
           <div>

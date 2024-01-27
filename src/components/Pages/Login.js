@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 import axios from 'axios';
 import "../Styles/Login.css";
 
@@ -13,7 +16,7 @@ function Login() {
   
   function handleSubmit(event) {
     event.preventDefault();
-    axios.post('http://blackzspace.de:8081/login', {user, password})
+    axios.post('http://localhost:8081/login', {user, password})
     .then(res => console.log(res))
     .catch(err => console.log(err))
   }
@@ -21,7 +24,7 @@ function Login() {
   const [message, setMessage] = useState("");
   useEffect(() => {
     document.title = "bS | Login 🔑";
-    fetch('http://blackzspace.de:8081/login')
+    fetch('http://localhost:8081/login')
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
@@ -31,6 +34,18 @@ function Login() {
   return (
     
     <div className="Login-header">
+        <Container maxWidth="sm">
+            <Box sx={{ my: 4 }}>
+              <Typography
+                align="center"
+                variant="h4"
+                component="h1"
+                gutterBottom
+              >
+                Login
+              </Typography>
+            </Box>
+          </Container>
       <div className="login">
         <form onSubmit={handleSubmit}>
           <div>
@@ -47,7 +62,7 @@ function Login() {
    
       </form>
         </div>
-        <center><p>{message}</p></center>
+      
         </div>
   );
 }
