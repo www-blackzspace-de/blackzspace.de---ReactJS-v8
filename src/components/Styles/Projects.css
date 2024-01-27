@@ -1,0 +1,48 @@
+.Projects {
+    color:aqua;
+    background-color: #242424;
+}
+
+.Projects li a{
+    color:blueviolet;
+
+}
+
+.Projects-Header {
+    background-color: #242424;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 255, 221);
+  }
+
+  .head {
+    background-color: #242424;
+    color:rgb(0, 255, 221);
+  }
+
+
+  .body {
+    background-color: #242424;
+    text-align: center;
+    color: rgb(0, 255, 221);
+  }
+
+
+
+
+  .p1 {
+    font-size: medium;
+  }
+
+  .p3 {
+    font-size: medium;
+  }
+
+
+  .Spacer {
+    background-color: aliceblue;
+  }
