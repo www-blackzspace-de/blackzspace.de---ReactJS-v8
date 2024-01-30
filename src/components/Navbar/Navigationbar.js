@@ -17,15 +17,11 @@ function Navigationbar() {
             <Nav.Link eventKey="5" as={Link} to="/tutorials">Tutorials</Nav.Link>
             <Nav.Link eventKey="6" as={Link} to="/downloads">Downloads</Nav.Link>
             <Nav.Link eventKey="7" as={Link} to="/projects">Projects</Nav.Link>
-            <Nav.Link eventKey="8" href="https://git.blackzspace.de/">Git</Nav.Link>
-            <Nav.Link eventKey="9" href="https://hub.blackzspace.de/">Docker</Nav.Link>
             <Nav.Link eventKey="10" as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link eventKey="11" as={Link} to="/login">Login</Nav.Link>
-            <Nav.Link eventKey="12" as={Link} to="/register">
-              Register
-            </Nav.Link>
+            <Nav.Link eventKey="12" as={Link} to="/register">Register</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

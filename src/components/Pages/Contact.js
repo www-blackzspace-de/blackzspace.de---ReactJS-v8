@@ -37,16 +37,18 @@ function Contact() {
         </center>
 
         <div>
-          <iframe
-            title="discord"
-            class="discord"
-            src="https://discord.com/widget?id=1129804960805175357&theme=dark"
-            width="350"
-            height="500"
-            allowtransparency="true"
-            frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
+
+        <iframe 
+        title="discord"
+        class="discord"
+        src="https://discord.com/widget?id=1201563586280034314&theme=dark" 
+        width="350" 
+        height="500" 
+        allowtransparency="true" 
+        frameborder="0" 
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+        </iframe>
+        
         </div>
       </header>
       <header className="Contact-body">

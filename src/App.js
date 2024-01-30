@@ -13,6 +13,7 @@ import Contact from "./components/Pages/Contact";
 import Register from "./components/Pages/Register";
 import Update from "./components/Pages/Update";
 import Login from "./components/Pages/Login";
+import BlackzspaceOS from "./components/Pages/BlackzspaceOS";
 
 
 function App() {
@@ -30,10 +31,11 @@ function App() {
           <Route path="/downloads" component={Downloads} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Route path="/git" />
-          <Route path="/docker" />
+          
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+
+          <Route path="/blackzspace-os" component={BlackzspaceOS} />
         </Switch>
       </Router>
     </div>

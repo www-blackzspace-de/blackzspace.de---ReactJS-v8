@@ -1,0 +1,5 @@
+{
+    "bpi-gpio-control": "https://github.com/blackzspace-de-Tutorials/How-To-Control-GPIO-BPI-M2-Berry",
+    "dockerize-nodejs": "https://github.com/blackzspace-de-Tutorials/How-To-Dockerize-NodeJS-Backend",
+    "setup-blackzspace-os": "https://github.com/blackzspace-de-Tutorials/How-To-Install-BlackzSpace-OS.git"
+}
