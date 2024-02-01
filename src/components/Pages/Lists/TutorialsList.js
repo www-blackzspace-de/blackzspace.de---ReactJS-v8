@@ -13,7 +13,7 @@ const TutorialsList = ({ tutorials, body, url, title}) => {
           <div className="Tutorials-preview" key={page.id} >
             <h2>{ page.title }</h2>
             <p className="Tutorials-body">{ page.body }</p>
-            <Link href={page.url}>Link</Link>
+            <Link href={page.url}>{page.url}</Link>
 
             <p className="Tutorials-author">Written by { page.author }</p>
           </div>
