@@ -36,10 +36,18 @@
   .Tutorials-link {
     background-color: #646464;
   }
-  .Tutorials a{
-    background-color: black;
+  .Tutorials a {
+    color: white;
     padding: 5px;
-    
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+  }
+
+
+  .Tutorials a:hover {
+    color: blue !important;
     border: 2px solid black;
     border-radius: 10px;
   }
