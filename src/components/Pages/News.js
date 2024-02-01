@@ -30,8 +30,8 @@ const News = () => {
 
   
     return (
-      <div className="news">
-        <div className="content">
+      <div className="News">
+        <div className="Content">
         <NewsList news={news} title="All News" />
         </div>
       </div>

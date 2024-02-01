@@ -25,17 +25,18 @@ function App() {
           <Route exact path="/" component={Root} />
           <Route path="/board" />
           <Route path="/news" component={News} />
-          <Route path="/update" component={Update} />
-          <Route path="/stream" component={Stream} />
           <Route path="/tutorials" component={Tutorials} />
-          <Route path="/downloads" component={Downloads} />
           <Route path="/projects" component={Projects} />
+          <Route path="/downloads" component={Downloads} />
           <Route path="/contact" component={Contact} />
-          
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
 
           <Route path="/blackzspace-os" component={BlackzspaceOS} />
+          <Route path="/update" component={Update} />
+
+          <Route path="/stream" component={Stream} />
+
         </Switch>
       </Router>
     </div>

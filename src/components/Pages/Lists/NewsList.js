@@ -4,13 +4,13 @@ const NewsList = ({ news, body, title}) => {
     // console.log(blogs);
   
     return (
-      <div className="news-list">
+      <div className="News-list">
         <h2>{ title }</h2>
         {news.map(page => (
-          <div className="news-preview" key={page.id} >
+          <div className="News-preview" key={page.id} >
             <h2>{ page.title }</h2>
-            <p className="news-body">{ page.body }</p>
-            <p className="news-author">Written by { page.author }</p>
+            <p className="News-body">{ page.body }</p>
+            <p className="News-author">Written by { page.author }</p>
           </div>
         ))}
       </div>

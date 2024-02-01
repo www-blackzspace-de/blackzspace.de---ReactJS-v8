@@ -1,34 +1,34 @@
-.content p {
+.Content p {
   color: red;
 }
 
 
-.content {
+.Content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
 }
 
-.news {
+.News {
   background-color: #646464;
 }
-.news-body {
+.News-body {
   color: black !important;
 }
-.news-author {
+.News-author {
   color: aqua !important;;
 }
 
 /* blog previews / list */
-.news-preview {
+.News-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #222222;
 }
-.news-preview:hover {
+.News-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
-.news-preview h2 {
+.News-preview h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;

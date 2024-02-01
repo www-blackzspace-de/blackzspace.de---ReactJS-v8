@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Typography from "@mui/material/Typography";
-
 import TutorialsList from "./Lists/TutorialsList";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
@@ -41,7 +40,7 @@ const Tutorials = () => {
           </Container>
       </header>
 
-      <div className="Tutorials-body">
+      <div className="Tutorials">
       <TutorialsList tutorials={tutorials} title="All Tutorials" />
       </div>
     </div>

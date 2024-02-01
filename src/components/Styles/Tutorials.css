@@ -8,23 +8,59 @@
     font-size: calc(10px + 2vmin);
     color: rgb(0, 255, 221);
   }
-
-  .head {
+  .Tutorials {
     background-color: #242424;
-    color:rgb(0, 255, 221);
-  }
-
-
-  .body {
-    background-color: #242424;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
     color: rgb(0, 255, 221);
   }
 
-  .p1 {
-    font-size: medium;
+  .Content p {
+    color: red;
+  }
+  
+  
+  .Content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .Tutorials {
+    background-color: #646464;
   }
 
-  .p3 {
-    font-size: medium;
+  .Tutorials-link {
+    background-color: #646464;
+  }
+  .Tutorials a{
+    background-color: black;
+    padding: 5px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .Tutorials-body {
+    color: black !important;
+  }
+  .Tutorials-author {
+    color: aqua !important;;
+  }
+  
+  /* blog previews / list */
+  .Tutorials-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #222222;
+  }
+  .Tutorials-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .Tutorials-preview h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
   }

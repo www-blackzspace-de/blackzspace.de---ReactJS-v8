@@ -21,8 +21,16 @@ code {
   background-color: rgb(39, 39, 39) !important;
 }
 
+.nav-link a {
+  border: 1px solid rgb(48, 48, 48) !important;
+  transition: 0.3s ease-in-out !important; 
+
+}
+
 .navbar {
-  background-color:rgb(48, 48, 48) !important;
+  background-color: rgb(48, 48, 48) !important;
+  max-height: 56px !important;
+
   
 }
 
@@ -32,6 +40,8 @@ code {
 
 a:hover {
   color: red !important;
+  border: 1px solid transparent !important;
+  border-radius: 20px !important;
 }
 
 
