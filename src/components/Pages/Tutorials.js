@@ -24,7 +24,7 @@ const Tutorials = () => {
 
 
   return (
-    <div>
+    <div className="Tutorials">
       <header className="Tutorials-Header">
           <Container maxWidth="sm">
             <Box sx={{ my: 4 }}>
@@ -40,7 +40,7 @@ const Tutorials = () => {
           </Container>
       </header>
 
-      <div className="Tutorials">
+      <div className="Content">
       <TutorialsList tutorials={tutorials} title="All Tutorials" />
       </div>
     </div>

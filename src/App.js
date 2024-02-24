@@ -14,6 +14,7 @@ import Register from "./components/Pages/Register";
 import Update from "./components/Pages/Update";
 import Login from "./components/Pages/Login";
 import BlackzspaceOS from "./components/Pages/BlackzspaceOS";
+import IP from "./components/Pages/IP";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Navigationbar />
         <Switch>
           <Route exact path="/" component={Root} />
+          
           <Route path="/board" />
           <Route path="/news" component={News} />
           <Route path="/tutorials" component={Tutorials} />
@@ -36,6 +38,8 @@ function App() {
           <Route path="/update" component={Update} />
 
           <Route path="/stream" component={Stream} />
+
+          <Route path="/ip" component={IP} />
 
         </Switch>
       </Router>

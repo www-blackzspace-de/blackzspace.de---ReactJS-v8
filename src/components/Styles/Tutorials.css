@@ -1,22 +1,4 @@
-.Tutorials-Header {
-    background-color: #242424;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(0, 255, 221);
-  }
-  .Tutorials {
-    background-color: #242424;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(0, 255, 221);
-  }
+
 
   .Content p {
     color: red;
@@ -33,42 +15,28 @@
     background-color: #646464;
   }
 
-  .Tutorials-link {
-    background-color: #646464;
-  }
-  .Tutorials a {
-    color: white;
-    padding: 5px;
-    transition: 0.4s ease-in-out;
-    box-sizing: border-box;
-    text-decoration: none;
-  
-  }
-
-
-  .Tutorials a:hover {
-    color: blue !important;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
   .Tutorials-body {
     color: black !important;
   }
+
   .Tutorials-author {
     color: aqua !important;;
   }
   
-  /* blog previews / list */
   .Tutorials-preview {
     padding: 10px 16px;
     margin: 20px 0;
     border-bottom: 1px solid #222222;
   }
+
   .Tutorials-preview:hover {
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
   }
+
   .Tutorials-preview h2 {
     font-size: 20px;
     color: #f1356d;
     margin-bottom: 8px;
   }
+  
+  
